@@ -1,0 +1,82 @@
+# Crèmerie Attayssir - Restaurant Website
+
+## Project Structure
+
+```
+cremerie-attayssir/
+├── public/
+│   ├── images/
+│   │   ├── hero/
+│   │   ├── menu/
+│   │   ├── gallery/
+│   │   └── logo/
+│   └── favicon.ico
+│
+├── src/
+│   ├── components/
+│   │   ├── layout/
+│   │   │   ├── Header.jsx
+│   │   │   ├── Footer.jsx
+│   │   │   └── Navigation.jsx
+│   │   │
+│   │   ├── home/
+│   │   │   ├── Hero.jsx
+│   │   │   ├── CoreValues.jsx
+│   │   │   ├── LifeSection.jsx
+│   │   │   └── ChefSection.jsx
+│   │   │
+│   │   ├── about/
+│   │   │   ├── AboutHero.jsx
+│   │   │   ├── CoreValues.jsx
+│   │   │   └── LifeAtCremerie.jsx
+│   │   │
+│   │   ├── menu/
+│   │   │   ├── MenuHero.jsx
+│   │   │   ├── MenuTabs.jsx
+│   │   │   ├── MenuItem.jsx
+│   │   │   └── MenuGrid.jsx
+│   │   │
+│   │   ├── contact/
+│   │   │   ├── ContactInfo.jsx
+│   │   │   ├── LocationMap.jsx
+│   │   │   └── OpeningHours.jsx
+│   │   │
+│   │   └── common/
+│   │       ├── Button.jsx
+│   │       ├── Card.jsx
+│   │       └── Loading.jsx
+│   │
+│   ├── pages/
+│   │   ├── Home.jsx
+│   │   ├── About.jsx
+│   │   ├── Menu.jsx
+│   │   ├── Contact.jsx
+│   │   └── Gallery.jsx
+│   │
+│   ├── services/
+│   │   └── supabase.js
+│   │
+│   ├── hooks/
+│   │   ├── useMenu.js
+│   │   └── useReservation.js
+│   │
+│   ├── utils/
+│   │   ├── constants.js
+│   │   └── helpers.js
+│   │
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+│
+├── supabase/
+│   ├── migrations/
+│   │   └── 001_initial_schema.sql
+│   └── seed.sql
+│
+├── .env.example
+├── .gitignore
+├── package.json
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
+```
