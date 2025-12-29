@@ -1,6 +1,4 @@
 import React, { useState } from 'react';
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
 import Button from '../components/common/Button';
 import { MapPin, Phone, Mail, Clock, Send } from 'lucide-react';
 import { RESTAURANT_INFO } from '../utils/constants';
@@ -107,8 +105,7 @@ const Contact = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-dark-900">
-      <Header />
+    <>
 
       {/* Hero Section */}
       <section className="pt-32 pb-16 px-6 bg-gradient-to-b from-dark-800 to-dark-900">
@@ -320,9 +317,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-
-      <Footer />
-    </main>
+    </>
   );
 };
 

@@ -1,6 +1,4 @@
 import React from 'react';
-import Header from '../components/layout/Header';
-import Footer from '../components/layout/Footer';
 import { Heart, Leaf, Users, Award } from 'lucide-react';
 
 const About = () => {
@@ -28,8 +26,7 @@ const About = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-dark-900">
-      <Header />
+    <>
 
       {/* Hero Section */}
       <section className="relative h-[60vh] min-h-[400px] flex items-center justify-center">
@@ -122,7 +119,7 @@ const About = () => {
             <div className="order-1 md:order-2 relative">
               <div className="aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/images/chef-antoine.jpg"
+                  src="/images/chef/chefPhoto.png"
                   alt="Chef Mohamed Attayssir"
                   className="w-full h-full object-cover"
                 />
@@ -186,9 +183,7 @@ const About = () => {
           </a>
         </div>
       </section>
-
-      <Footer />
-    </main>
+    </>
   );
 };
 

@@ -6,14 +6,14 @@ export const RESTAURANT_INFO = {
 
     // Contact Information
     contact: {
-        phone: "+33 1 23 45 67 89",
+        phone: "0708558465",
         email: "contact@cremerieattayssir.com",
         address: {
-            street: "123 Foodie Lane",
-            city: "Paris",
-            postalCode: "75001",
-            country: "France",
-            full: "123 Foodie Lane, 75001 Paris, France"
+            street: "80060 Cité El Wafa",
+            city: "Agadir",
+            postalCode: "80000",
+            country: "Morocco",
+            full: "80060 Cité El Wafa, Agadir 80000 CCCR+PP7, Agadir 80000, Agadir 80060"
         }
     },
 
@@ -71,7 +71,7 @@ export const CORE_VALUES = [
 export const CHEF_INFO = {
     name: "Chef Antoine",
     quote: "Food should energize you, not weigh you down. My philosophy is simple: fresh, fast, and full of flavor. We cook with the rhythm of the city but the soul of the countryside.",
-    image: "/images/chef-antoine.jpg",
+    image: "/images/chef/chefPhoto.png",
     specialty: "Modern French Cuisine"
 };
 
